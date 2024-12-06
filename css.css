@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+  section .img-bg {
+    position: relative;
+    width: 500%;
+    height: 100%;
+  }
+  section .img-bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  section .login {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  section .login .form {
+    background-color:palevioletred;
+    border: 2px solid black;
+    padding: 80px;
+    border-radius: 10px;
+  }
+  section .login .form h2 {
+    text-align: center;
+    color:brown;
+    margin-bottom: 20px;
+    border-bottom: 2px solid brown;
+    display: block;
+    letter-spacing: 2px;
+  }
+  section .login .form .input-form {
+    margin-bottom: 20px;
+  }
+  section .login .form .input-form span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: brown;
+    letter-spacing: 2px;
+  }
+  section .login .form .input-form input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    background: transparent;
+    border-radius: 10px;
+  }
+  section .login .form .input-form input[type="button"] {
+    background: rgb(128, 68, 30);
+    color: rgb(232, 226, 226);
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+      0 16px 16px rgba(0, 0, 0, 0.12);
+  }
+  section .login .form .input-form input[type="button"]:hover {
+    background: rgb(48, 15, 15);
+  }
+  section .login .form .input-form p {
+    color: black;
+  }
+  section .login .form .input-form p a {
+    color: green;
+  }
